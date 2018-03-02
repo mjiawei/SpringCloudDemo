@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Config-Server" />
+        <module name="EurekaServer" />
+        <module name="Serice-Feign" />
+        <module name="Service-Hi" />
+        <module name="Service-Ribbon" />
+        <module name="Service-Zuul" />
+        <module name="SpringCloudDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Config-Server" target="1.8" />
+      <module name="EurekaServer" target="1.8" />
+      <module name="Serice-Feign" target="1.8" />
+      <module name="Service-Hi" target="1.8" />
+      <module name="Service-Ribbon" target="1.8" />
+      <module name="Service-Zuul" target="1.8" />
+      <module name="SpringCloudDemo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
