@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Serice-Feign/pom.xml" />
         <option value="$PROJECT_DIR$/Service-Zuul/pom.xml" />
         <option value="$PROJECT_DIR$/Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Config-Client/pom.xml" />
       </list>
     </option>
   </component>

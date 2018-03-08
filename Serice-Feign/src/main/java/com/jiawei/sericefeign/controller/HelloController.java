@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @Autowired
     SchedualServiceHello schedualServiceHello;
+
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
         return schedualServiceHello.sayHiFromClientOne(name);
