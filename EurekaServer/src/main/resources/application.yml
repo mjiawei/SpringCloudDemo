@@ -11,3 +11,9 @@ eureka:
     enableSelfPreservation: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+#docker:
+#  image:
+#    prefix: jiawei
+

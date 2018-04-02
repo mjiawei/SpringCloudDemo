@@ -11,20 +11,25 @@
         <module name="EurekaServer" />
         <module name="Serice-Feign" />
         <module name="Service-Hi" />
+        <module name="service-miya" />
         <module name="Service-Ribbon" />
         <module name="Service-Zuul" />
         <module name="SpringCloudDemo" />
+        <module name="zipkin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Config-Client" target="1.8" />
       <module name="Config-Server" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="Serice-Feign" target="1.8" />
       <module name="Service-Hi" target="1.8" />
+      <module name="service-miya" target="1.8" />
       <module name="Service-Ribbon" target="1.8" />
       <module name="Service-Zuul" target="1.8" />
       <module name="SpringCloudDemo" target="1.5" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
